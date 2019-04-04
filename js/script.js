@@ -11,21 +11,7 @@ window.addEventListener('DOMContentLoaded', function() {              //load г�
         console.log(prevFoto);
         
 
-        function hidePhotosFromTrips(a){
-            for(let i = 0; i < photosFromTrips.length; i++){
-                photosFromTrips[i].classList.remove('show');
-                photosFromTrips[i].classList.add('hide');
-            }
-        }
-        hidePhotosFromTrips(1);
-
-        function showPhotosFromTrips(i) {
-            if (photosFromTrips[i].classList.contains('hide')){
-                photosFromTrips[i].classList.remove('hide');
-                photosFromTrips[i].classList.add('show');
-            }
-        }
-        
+               
     function hideTabContent(a) {
         for(let i = 0; i < tabContent.length; i++){
             tabContent[i].classList.remove('show'); //удаляем класс show
