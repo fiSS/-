@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', function() {              //load г�
 
                
     function hideTabContent(a) {
-        for(let i = 0; i < tabContent.length; i++){
+        for(let i = a; i < tabContent.length; i++){
             tabContent[i].classList.remove('show'); //удаляем класс show
             tabContent[i].classList.add('hide'); //скроем все елементы tabContent со страницы
         }
