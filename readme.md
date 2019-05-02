@@ -3,8 +3,7 @@
  2.добавить новый class в html:
  3.добавить картинку.
 
-    
-  				<div class="info-tabcontent fade">
+				<div class="info-tabcontent fade">
 					<div class="description">
 						<div class="description-title">Наполнить текстом</div>
 						<div class="description-text">какой то текст</div>
@@ -18,5 +17,4 @@
 				</div>
 
 			</div>
-
 
