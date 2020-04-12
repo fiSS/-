@@ -1,6 +1,6 @@
-# Табы на нативном JS, с динамическим добавлением елементов на страницу.
+## Табы на нативном JS, с динамическим добавлением елементов на страницу.
 
-# USAGE
+### USAGE
  1. добавить в  HTML: div class="info-header" новый class div class="info-header-tab" какой то новый контент/div,<br>
  2.  в css есть 2 класса: content .info .hide и content .info .show(один скрывает другой отображает табы на странице)
  3. добавить новый div class="info-tabcontent fade" в html и напольнить по аналогии с имеющимеся divam-и,<br>
